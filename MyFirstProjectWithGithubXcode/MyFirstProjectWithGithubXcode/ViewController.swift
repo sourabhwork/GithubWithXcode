@@ -11,8 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .cyan
+        setupUI()
         print("My First Xcode Github Project")
+    }
+    
+    func setupUI() {
+        self.view.backgroundColor = .cyan
     }
 
 
